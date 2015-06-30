@@ -1,0 +1,117 @@
+- name: Canteen
+  heads: Gordon Mowry
+
+- name: Gate
+  heads:
+  - "Jack & Vivian Smith"
+  - Josh Dickison
+
+- name: Horse Haul
+  heads: Ross Barnet
+
+- name: Fair Bar
+  heads: Joanne Forbes
+
+- name: Fair Book
+  heads: Edie Dextraze
+
+- name: Baby Contest<br>(none in 2015)
+  heads: Roberta Merrill
+
+- name: Household Science
+  heads: Bev Van Beek
+
+- name: "Floriculture & Horticulture"
+  heads: Irene Colford
+
+- name: "Midway & Bouncy Units"
+  heads: Gordon Mowry
+
+- name: "Arts & Crafts"
+  heads:
+  - Edie Dextraze
+  - Judy McAloon
+
+- name: Sponsorship
+  heads:
+  - Edie Dextraze
+  - Josh Dickison
+  - Ross Barnet
+
+- name: Advertising
+  heads:
+  - Judy McAloon
+  - Edie Dextraze
+
+- name: Children’s Exhibits
+  heads: Edie Dextraze
+
+- name: Government Projects
+  heads:
+  - Gerry Chevrier
+  - Josh Dickison
+
+- name: Booth Space
+  heads:
+  - Bev Van Beek
+  - Roberta Merrill
+
+- name: Community Opening Dinner
+  heads: Irene Colford
+
+- name: "Music & Entertainment"
+  heads:
+  - Judy McAloon
+  - Joanne Forbes
+
+- name: Animal Displays
+  heads: Thelma Duffield
+
+- name: "Non Fair Events & Fund Raising"
+  heads:
+  - Edith Dextraze
+  - Bev Van Beek
+
+- name: 4-H Co-ordinator
+  heads:
+  - Josh Dickison
+  - Thelma Duffield
+
+- name: Agricultural Awareness
+  heads:
+  - Josh Dickison
+  - Thelma Duffield
+
+- name: Insurance
+  heads: Gerry Chrevrier
+
+- name: Pet Activities
+  heads: Thelma Duffield
+
+- name: "Fair Games & Activities"
+  heads: Gordon Mowry
+
+- name: Silent Auction
+  heads: Diane MacKinnon
+
+- name: Maintenance and Repairs
+  heads:
+  - Mike Chamberlain
+  - Ed Haines
+
+- name: Website
+  heads: Josh Dickison
+
+- name: Rentals
+  heads:
+  - Edie Dextraze
+  - Bev Van Beek
+
+- name: SEED
+  heads:
+  - Josh Dickison
+  - Agnes Edmondson
+  - Thelma Duffield
+
+- name: Food Vendors
+  heads: Gordon Mowry

@@ -1,0 +1,20 @@
+# Site settings
+title: The Stanley Fair
+header-img: img/header.jpg
+email: leahbelyea@gmail.com
+description: "The longest continuously running agricultural fair in New Brunswick"
+baseurl: ""
+url: "http://stanleyfair.com"
+facebook_username: groups/134846959887178/
+excerpt_separator: <!--end-excerpt-->
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Dropbox
+baseurl: "https://dl.dropboxusercontent.com/u/112632688"
+permalink: none

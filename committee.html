@@ -1,0 +1,64 @@
+---
+layout: page
+title: "Committee"
+description: ""
+nav-weight: 4
+---
+<section>
+    <h2>Executive for 2015</h2>
+    <dl class="dl-horizontal">
+        {% for exec in site.data.executive %}
+        <dt>{{ exec.position }}</dt>
+        <dd>{{ exec.member }}</dd>
+        {% endfor %}
+    </dl>
+</section>
+
+<section>
+    <h2>Directors for 2015</h2>
+    <h3>1st year of 3 year term</h3>
+    <ul>
+        <li>Irene Colford</li>
+        <li>Ross Barnet</li>
+        <li>Theresa Gorman</li>
+    </ul>
+
+    <h3>2nd year of 3 year term</h3>
+    <ul>
+        <li>Bev Van Beek</li>
+        <li>Josh Dickison</li>
+        <li>Agnes Edmondson</li>
+    </ul>
+
+    <h3>3rd year of 3 year term</h3>
+    <ul>
+        <li>Gordon Mowry</li>
+        <li>Edie Dextraze</li>
+        <li>Joanne Forbes</li>
+    </ul>
+</section>
+
+<section>
+    <h2>The Department Heads for 2015</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+        {% for dept in site.data.departments %}
+        <tr>
+            <td>{{ dept.name }}</td>
+            <td>
+            {% for head in dept.heads %}
+            {{ head }}
+            {% unless forloop.last %}<br>{% endunless %}
+            {% endfor %}
+            </td>
+<!--             <td>
+            {% for head in dept.heads %}
+            {{ site.data.committee_members[head].phone }}
+            {% unless forloop.last %}<br>{% endunless %}
+            {% endfor %}
+            </td> -->
+        </tr>
+        {% endfor %}
+        </table>
+    </div>
+</section>
