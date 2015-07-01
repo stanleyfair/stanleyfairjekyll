@@ -16,49 +16,57 @@ nav-weight: 4
 
 <section>
     <h2>Directors for 2015</h2>
-    <h3>1st year of 3 year term</h3>
-    <ul>
-        <li>Irene Colford</li>
-        <li>Ross Barnet</li>
-        <li>Theresa Gorman</li>
-    </ul>
-
-    <h3>2nd year of 3 year term</h3>
-    <ul>
-        <li>Bev Van Beek</li>
-        <li>Josh Dickison</li>
-        <li>Agnes Edmondson</li>
-    </ul>
-
-    <h3>3rd year of 3 year term</h3>
-    <ul>
-        <li>Gordon Mowry</li>
-        <li>Edie Dextraze</li>
-        <li>Joanne Forbes</li>
-    </ul>
+    {% for term in site.data.directors.terms %}
+        <h3>{{ term.year }} year of {{ site.data.directors.term_length }} year term</h3>
+        <ul>
+            {% for director in term.directors %}
+            <li>{{ director }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
 </section>
 
-<section>
+<section class="schedule">
     <h2>The Department Heads for 2015</h2>
-    <div class="table-responsive">
-        <table class="table table-striped">
-        {% for dept in site.data.departments %}
-        <tr>
-            <td>{{ dept.name }}</td>
-            <td>
+
+    <table class="table table-striped full">
+    {% for dept in site.data.departments %}
+    <tr>
+        <td class="dept-name"><span>{{ dept.name }}</span></td>
+        <td>
             {% for head in dept.heads %}
             {{ head }}
             {% unless forloop.last %}<br>{% endunless %}
             {% endfor %}
-            </td>
-<!--             <td>
+
+        </td>
+        <!-- <td>
             {% for head in dept.heads %}
             {{ site.data.committee_members[head].phone }}
             {% unless forloop.last %}<br>{% endunless %}
             {% endfor %}
-            </td> -->
-        </tr>
-        {% endfor %}
-        </table>
-    </div>
+        </td> -->
+    </tr>
+    {% endfor %}
+    </table>
+
+    <table class="table table-striped mobile">
+    {% for dept in site.data.departments %}
+    <tr><td colspan="2" class="dept-name">{{ dept.name }}</td></tr>
+    <tr>
+        <td>
+            {% for head in dept.heads %}
+            {{ head }}
+            {% unless forloop.last %}<br>{% endunless %}
+            {% endfor %}
+        </td>
+ <!--        <td>
+            {% for head in dept.heads %}
+            {{ site.data.committee_members[head].phone }}
+            {% unless forloop.last %}<br>{% endunless %}
+            {% endfor %}
+        </td> -->
+    </tr>
+    {% endfor %}
+    </table>
 </section>

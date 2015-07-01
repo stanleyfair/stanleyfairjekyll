@@ -17,7 +17,7 @@ nav-weight: 2
 <section class="location">
     <h2>Location</h2>
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5514.72299381145!2d-66.74160684576015!3d46.28279203745296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca4756b051993dd%3A0xf5fd1db5b93cf9e4!2s23+Centennial+St%2C+Stanley%2C+NB+E6B!5e0!3m2!1sen!2sca!4v1435529644509" width="300" height="300" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5514.72299381145!2d-66.74160684576015!3d46.28279203745296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca4756b051993dd%3A0xf5fd1db5b93cf9e4!2s23+Centennial+St%2C+Stanley%2C+NB+E6B!5e0!3m2!1sen!2sca!4v1435529644509" width="290" height="290" frameborder="0" allowfullscreen></iframe>
     </div>
     <address>
         <p>Stanley Fair Grounds</p>
@@ -52,12 +52,14 @@ nav-weight: 2
             {% for event in day.events %}
             <tr>
                 <td class="event-time">
+                    <span>
                     {% if event.start_time %}
                     {{ event.start_time | date: "%l:%M %p" }}
                     {% if event.end_time %}
                      - {{ event.end_time | date: "%l:%M %p" }}
                     {% endif %}
                     {% endif %}
+                    </span>
                 </td>
                 <td>
                     <strong>{{ event.name }}</strong>
@@ -70,11 +72,12 @@ nav-weight: 2
     {% endfor %}
 
     <h3>Ongoing</h3>
-        <ul class="ongoing">
-        {% for attraction in site.data.schedule.ongoing %}
-            <li>
-                {{ attraction }}
-            </li>
-        {% endfor %}
-        </ul>
+    <ul class="ongoing">
+    {% for attraction in site.data.schedule.ongoing %}
+        <li>
+            {{ attraction }}
+        </li>
+    {% endfor %}
+    </ul>
+    <a href="{{ site.baseurl }}/static_files/2015_schedule.pdf">Download the schedule as a PDF</a>
 </section>

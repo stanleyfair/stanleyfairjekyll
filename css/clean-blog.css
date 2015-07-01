@@ -441,15 +441,23 @@ body {
 .fair-info .schedule h3 {
   font-size: 20px;
 }
-.fair-info .schedule table {
+.fair-info .schedule table tbody {
   font-size: 14px;
   margin: 0;
 }
-.fair-info .schedule table p {
+.fair-info .schedule table tbody p {
   margin: 0;
 }
-.fair-info .schedule table td.event-time {
+.fair-info .schedule table tbody td {
+  white-space: normal;
+}
+.fair-info .schedule table tbody td.event-time {
   width: 220px;
+}
+.fair-info .schedule table tbody td.event-time span {
+  width: 220px;
+  white-space: normal;
+  display: inline-block;
 }
 .fair-info .schedule ul.ongoing {
   columns: 2;
@@ -465,4 +473,48 @@ section {
 }
 section p:first-of-type {
   margin-top: 0;
+}
+.schedule table.mobile {
+  text-align: center;
+  display: none;
+  font-size: 16px;
+}
+.schedule table.mobile .dept-name {
+  background: #eee;
+  font-weight: bold;
+}
+.schedule .table-responsive {
+  border: none;
+}
+@media (max-width: 650px) {
+  .schedule table.full {
+    font-size: 16px;
+  }
+  .schedule table.full td span {
+    width: 160px;
+    white-space: normal;
+    display: inline-block;
+  }
+}
+@media (max-width: 475px) {
+  .schedule table.full {
+    display: none;
+  }
+  .schedule table.mobile {
+    display: table;
+  }
+}
+@media (max-width: 550px) {
+  .fair-info .map {
+    float: none;
+  }
+  .fair-info address {
+    margin: 10px 0 0 0;
+  }
+  .fair-info .schedule table tbody td.event-time {
+    width: 80px;
+  }
+  .fair-info .schedule table tbody td.event-time span {
+    width: 80px;
+  }
 }

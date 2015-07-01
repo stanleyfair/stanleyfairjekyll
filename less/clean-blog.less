@@ -513,7 +513,7 @@ body {
 			font-size: 20px;
 		}
 
-		table {
+		table tbody {
 			font-size: 14px;
 			margin: 0;
 
@@ -521,8 +521,18 @@ body {
 				margin: 0;
 			}
 
+			td {
+				white-space: normal;
+			}
+
 			td.event-time {
 				width: 220px;
+
+				span {
+					width: 220px;
+				  white-space: normal;
+					display: inline-block;
+				}
 			}
 		}
 
@@ -543,5 +553,70 @@ section {
 
 	p:first-of-type {
 	  margin-top: 0;
+	}
+}
+
+.schedule table.mobile {
+	text-align: center;
+	display: none;
+	font-size: 16px;
+
+	.dept-name {
+		background: #eee;
+		font-weight: bold;
+	}
+}
+
+.schedule .table-responsive {
+	border: none;
+}
+
+@media (max-width: 650px) {
+
+	.schedule table.full {
+		font-size: 16px;
+
+		td span {
+		  width: 160px;
+		  white-space: normal;
+		  display: inline-block;
+		}
+	}
+}
+
+@media (max-width: 475px) {
+
+	.schedule table.full {
+		display: none;
+	}
+
+	.schedule table.mobile {
+		display: table;
+	}
+}
+
+@media (max-width: 550px) {
+
+	.fair-info {
+		.map {
+			float: none;
+		}
+
+		address {
+			margin: 10px 0 0 0;
+		}
+
+		.schedule {
+			table tbody {
+
+				td.event-time {
+					width: 80px;
+
+					span {
+						width: 80px;
+					}
+				}
+			}
+		}
 	}
 }
