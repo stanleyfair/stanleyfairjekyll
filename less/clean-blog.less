@@ -29,6 +29,10 @@ h6 {
 	font-weight: 800;
 }
 
+h2 {
+	color: #3b726c;
+}
+
 a {
 	color: @gray-dark;
 	&:hover,
@@ -177,6 +181,10 @@ hr.small {
 	  padding: 0;
 	  margin: 0;
 	  width: 100%;
+
+	  .row {
+			margin: 0; /*Bootstrap fix... Otherwise you get an extra 30px width in mobile*/
+	  }
 	}
 	.site-heading,
 	.page-heading {
@@ -238,6 +246,19 @@ hr.small {
 				font-size: 30px;
 			}
 		}
+	}
+}
+
+header {
+	position: relative;
+
+	span.credit {
+	  position: absolute;
+	  bottom: 0;
+	  left: 0;
+	  padding: 5px;
+	  font-size: 14px;
+	  color: rgba(256, 256, 256, 0.4);
 	}
 }
 
@@ -478,6 +499,7 @@ body {
 .tagline {
   text-align: center;
   font-weight: bold;
+	color: #3b726c;
   font-size: 30px;
   margin-top: 0;
   .serif;
@@ -491,7 +513,7 @@ body {
 	clear: both;
 }
 
-.fair-info {
+.index {
 	.map {
 		float: left;
 
@@ -536,6 +558,14 @@ body {
 			}
 		}
 
+		.table-responsive {
+			border: none;
+		}
+
+		.table-bordered {
+			border: 1px solid #ddd;
+		}
+
 		ul.ongoing {
 		  columns: 2;
 		  -webkit-columns: 2;
@@ -548,6 +578,27 @@ body {
 	}
 }
 
+.committee {
+
+	.department-heads {
+
+		table.mobile {
+			text-align: center;
+			display: none;
+			font-size: 16px;
+
+			.dept-name {
+				background: #eee;
+				font-weight: bold;
+			}
+		}
+
+		.table-responsive {
+			border: none;
+		}
+	}
+}
+
 section {
 	margin-bottom: 40px;
 
@@ -556,42 +607,30 @@ section {
 	}
 }
 
-.schedule table.mobile {
-	text-align: center;
-	display: none;
-	font-size: 16px;
-
-	.dept-name {
-		background: #eee;
-		font-weight: bold;
-	}
-}
-
-.schedule .table-responsive {
-	border: none;
-}
-
 @media (max-width: 650px) {
+	.committee {
+		.department-heads table.full {
+			font-size: 16px;
 
-	.schedule table.full {
-		font-size: 16px;
-
-		td span {
-		  width: 160px;
-		  white-space: normal;
-		  display: inline-block;
+			td span {
+			  width: 160px;
+			  white-space: normal;
+			  display: inline-block;
+			}
 		}
 	}
 }
 
 @media (max-width: 475px) {
 
-	.schedule table.full {
-		display: none;
-	}
+	.committee {
+		.department-heads table.full {
+			display: none;
+		}
 
-	.schedule table.mobile {
-		display: table;
+		.department-heads table.mobile {
+			display: table;
+		}
 	}
 }
 

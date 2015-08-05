@@ -4,36 +4,79 @@ description: "Come Home to the Fair"
 nav-weight: 1
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
-    {{ post.excerpt }}
-    <a href="{{ post.url }}">Read more <i class="fa fa-chevron-circle-right"></i></a>
-</div>
-<hr>
-{% endfor %}
+<section class="schedule">
+    <h2>2015 Schedule</h2>
+    {% for day in site.data.schedule.days %}
+    <h3>{{ day.date | date: "%A, %B %-d" }}</h3>
+    <table class="table table-striped table-bordered">
+        {% for event in day.events %}
+        <tr>
+            <td class="event-time">
+                <span>
+                {% if event.start_time %}
+                {{ event.start_time | date: "%l:%M %p" }}
+                {% if event.end_time %}
+                 - {{ event.end_time | date: "%l:%M %p" }}
+                {% endif %}
+                {% else %}
+                TBD
+                {% endif %}
+                </span>
+            </td>
+            <td>
+                <strong>{{ event.name }}</strong>
+                <p class="description">{{ event.description }}</p>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endfor %}
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+    <h3>Ongoing</h3>
+    <ul class="ongoing">
+    {% for attraction in site.data.schedule.ongoing %}
+        <li>
+            {{ attraction }}
+        </li>
+    {% endfor %}
+    </ul>
+    <a href="{{ site.baseurl }}/static_files/2015_schedule.pdf">Download the schedule as a PDF</a>
+</section>
+
+<section class="dates">
+    <h2>2015 Fair Dates</h2>
+    <ul>
+        <li>Friday, August 14</li>
+        <li>Saturday, August 15</li>
+        <li>Sunday, August 16</li>
+    </ul>
+</section>
+
+<section class="location">
+    <h2>Location</h2>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5514.72299381145!2d-66.74160684576015!3d46.28279203745296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca4756b051993dd%3A0xf5fd1db5b93cf9e4!2s23+Centennial+St%2C+Stanley%2C+NB+E6B!5e0!3m2!1sen!2sca!4v1435529644509" width="290" height="290" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <address>
+        <p>Stanley Fair Grounds</p>
+        <p>23 Centennial Street</p>
+        <p>Stanley, NB</p>
+    </address>
+    <div class="clear"></div>
+</section>
+
+<section class="book">
+    <h2>Fair Book</h2>
+    <p>For 2015 there are no changes to the Exhibitor’s Manual AKA “Fair Book”. <a href="{{ site.baseurl }}/static_files/2014_fair_book.pdf">Download the 2014 edition here</a> or pick up a hard copy at Stanley area businesses:
+    <ul>
+        <li>Johnstone’s PharmaChoice</li>
+        <li>Hillside Convenience</li>
+        <li>Stanley Community Library</li>
+        <li>Taymouth Community Center</li>
+    </ul>
+    </section>
+
+    <section class="exhibitor-sheet">
+    <h2>Exhibitor's Sheet</h2>
+    <p><a href="{{ site.baseurl }}/static_files/2015_exhibitors_sheet.pdf">Download the 2015 Exhibitor's Sheet here</a></p>
+</section>

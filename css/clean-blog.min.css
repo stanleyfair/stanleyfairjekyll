@@ -25,6 +25,9 @@ h6 {
   font-family: 'Lora', 'Times New Roman', serif;
   font-weight: 800;
 }
+h2 {
+  color: #3b726c;
+}
 a {
   color: #404040;
 }
@@ -162,6 +165,10 @@ hr.small {
   margin: 0;
   width: 100%;
 }
+.intro-header .container .row {
+  margin: 0;
+  /*Bootstrap fix... Otherwise you get an extra 30px width in mobile*/
+}
 .intro-header .site-heading,
 .intro-header .page-heading {
   text-align: center;
@@ -222,6 +229,17 @@ hr.small {
   .intro-header .post-heading .subheading {
     font-size: 30px;
   }
+}
+header {
+  position: relative;
+}
+header span.credit {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
 }
 .post-preview > a {
   color: #404040;
@@ -416,6 +434,7 @@ body {
 .tagline {
   text-align: center;
   font-weight: bold;
+  color: #3b726c;
   font-size: 30px;
   margin-top: 0;
   font-family: 'Lora', 'Times New Roman', serif;
@@ -426,40 +445,46 @@ body {
 .clear {
   clear: both;
 }
-.fair-info .map {
+.index .map {
   float: left;
 }
-.fair-info .map iframe {
+.index .map iframe {
   border: 1px solid #ccc;
 }
-.fair-info address {
+.index address {
   margin-left: 320px;
 }
-.fair-info address p {
+.index address p {
   margin: 0;
 }
-.fair-info .schedule h3 {
+.index .schedule h3 {
   font-size: 20px;
 }
-.fair-info .schedule table tbody {
+.index .schedule table tbody {
   font-size: 14px;
   margin: 0;
 }
-.fair-info .schedule table tbody p {
+.index .schedule table tbody p {
   margin: 0;
 }
-.fair-info .schedule table tbody td {
+.index .schedule table tbody td {
   white-space: normal;
 }
-.fair-info .schedule table tbody td.event-time {
+.index .schedule table tbody td.event-time {
   width: 220px;
 }
-.fair-info .schedule table tbody td.event-time span {
+.index .schedule table tbody td.event-time span {
   width: 220px;
   white-space: normal;
   display: inline-block;
 }
-.fair-info .schedule ul.ongoing {
+.index .schedule .table-responsive {
+  border: none;
+}
+.index .schedule .table-bordered {
+  border: 1px solid #ddd;
+}
+.index .schedule ul.ongoing {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
@@ -468,39 +493,39 @@ body {
   font-size: 14px;
   padding: 10px 30px;
 }
+.committee .department-heads table.mobile {
+  text-align: center;
+  display: none;
+  font-size: 16px;
+}
+.committee .department-heads table.mobile .dept-name {
+  background: #eee;
+  font-weight: bold;
+}
+.committee .department-heads .table-responsive {
+  border: none;
+}
 section {
   margin-bottom: 40px;
 }
 section p:first-of-type {
   margin-top: 0;
 }
-.schedule table.mobile {
-  text-align: center;
-  display: none;
-  font-size: 16px;
-}
-.schedule table.mobile .dept-name {
-  background: #eee;
-  font-weight: bold;
-}
-.schedule .table-responsive {
-  border: none;
-}
 @media (max-width: 650px) {
-  .schedule table.full {
+  .committee .department-heads table.full {
     font-size: 16px;
   }
-  .schedule table.full td span {
+  .committee .department-heads table.full td span {
     width: 160px;
     white-space: normal;
     display: inline-block;
   }
 }
 @media (max-width: 475px) {
-  .schedule table.full {
+  .committee .department-heads table.full {
     display: none;
   }
-  .schedule table.mobile {
+  .committee .department-heads table.mobile {
     display: table;
   }
 }

@@ -100,7 +100,9 @@
   - Ed Haines
 
 - name: Website
-  heads: Josh Dickison
+  heads:
+  - Josh Dickison
+  - Leah Belyea
 
 - name: Rentals
   heads:
