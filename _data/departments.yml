@@ -1,10 +1,13 @@
 - name: Canteen
-  heads: Gordon Mowry
+  heads:
+  - Gordon Mowry
+  - Theresa Bird
+  - Geraldine Wilkins
 
 - name: Gate
   heads:
-  - "Jack & Vivian Smith"
   - Josh Dickison
+  - Doris Sellick
 
 - name: Horse Haul
   heads: Ross Barnet
@@ -15,14 +18,13 @@
 - name: Fair Book
   heads: Edie Dextraze
 
-- name: Baby Contest<br>(none in 2015)
-  heads: Roberta Merrill
-
 - name: Household Science
   heads: Bev Van Beek
 
 - name: "Floriculture & Horticulture"
-  heads: Irene Colford
+  heads:
+  - Irene Colford
+  - Theresa Gorman
 
 - name: "Midway & Bouncy Units"
   heads: Gordon Mowry
@@ -42,6 +44,7 @@
   heads:
   - Judy McAloon
   - Edie Dextraze
+  - Joanne Forbes
 
 - name: Children’s Exhibits
   heads: Edie Dextraze
@@ -57,7 +60,7 @@
   - Roberta Merrill
 
 - name: Community Opening Dinner
-  heads: Irene Colford
+  heads: Theresa Bird
 
 - name: "Music & Entertainment"
   heads:
@@ -66,11 +69,6 @@
 
 - name: Animal Displays
   heads: Thelma Duffield
-
-- name: "Non Fair Events & Fund Raising"
-  heads:
-  - Edith Dextraze
-  - Bev Van Beek
 
 - name: 4-H Co-ordinator
   heads:
@@ -83,7 +81,9 @@
   - Thelma Duffield
 
 - name: Insurance
-  heads: Gerry Chrevrier
+  heads:
+  - Gerry Chrevrier
+  - Joanne Forbes
 
 - name: Pet Activities
   heads: Thelma Duffield
@@ -96,6 +96,7 @@
 
 - name: Maintenance and Repairs
   heads:
+  - Raymond Colford
   - Mike Chamberlain
   - Ed Haines
 
