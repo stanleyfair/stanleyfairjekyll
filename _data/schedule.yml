@@ -25,10 +25,15 @@ days:
     end_time: 2016-08-19 10:30
     name: Teddy Bear Picnic
     description: Bring your favourite Teddy Bear!
+  - start_time: 2016-08-19 11:00
+    end_time: 2016-08-19 20:00
+    name: NEW Horse Demonstrations beside the Barn
+  - start_time: 2016-08-19 12:00
+    name: Lunch Special at the Canteen
+    description: Salad plate $7.50
   - start_time: 2016-08-19 13:30
-    end_time: 2016-08-19 14:30
-    name: Afternoon Tea Party
-    description: "In the Dance Hall, music by Sam & Charlene Johnston and Back Two Basics"
+    name: Tea Party
+    description: "music by Sam & Charlene Johnston and Back Two Basics, new event Family Feud"
   - start_time: 2016-08-19 15:00
     name: Super Bingo
     description: "Under the blue tarp, $100.00 Jackpot!"
@@ -36,9 +41,8 @@ days:
     end_time: 2016-08-19 21:00
     name: Ball Hockey in the Agrena
   - start_time: 2016-08-19 19:00
-    end_time: 2016-08-19 21:00
     name: Variety Show
-    description: Featuring Local Talent In The Old Dance Hall
+    description: Featuring "Valley Sound" In The Old Dance Hall
 
 - date: 2016-08-20
   events:
@@ -64,9 +68,16 @@ days:
     name: Mr. Zapz on the Kids' Stage
   - start_time: 2016-08-20 12:00
     name: Matt The Music Man on the Kids’ Stage
+  - start_time: 2016-08-19 12:00
+    name: Lunch Special at the Canteen
+    description: Turkey dinner $10.00
   - start_time: 2016-08-20 13:00
     name: Horse Pull
+  - start_time: 2016-08-20 13:00
+    end_time: 2016-08-20 16:00
+    name: Pony Rides and Wagon Rides
   - start_time: 2016-08-20 14:00
+    end_time: 2016-08-20 19:00
     name: Ploughman’s Pub
     description: "Enjoy a variety of music. Open to all ages."
   - start_time: 2016-08-20 14:00
@@ -74,7 +85,7 @@ days:
     name: Kiddies’ Fair Games in the Agrena
   - start_time: 2016-08-20 14:00
     name: Bingo under the tent
-    description: All proceeds Stanley School Breakfast Program
+    description: All proceeds Stanley Consolidated School Breakfast Program
   - start_time: 2016-08-20 15:00
     name: Mr. Zapz Magic Show
   - start_time: 2016-08-20 21:00
@@ -91,6 +102,9 @@ days:
   - start_time: 2016-08-21 11:00
     name: Gates Open
     description: "Admission $7.00, 12 and under free"
+  - start_time: 2016-08-19 11:00
+    end_time: 2016-08-19 16:00
+    name: NEW Horse Demonstrations beside the Barn
   - start_time: 2016-08-21 11:00
     name: Cow Patty & Donkey Dung Bingo start
   - start_time: 2016-08-21 12:00
@@ -106,7 +120,7 @@ days:
     name: Frisbee Dogs Demonstration
     description: Back by popular demand!
   - start_time: 2016-08-21 14:00
-    name: Ventriloquist
+    name: NEW Ventriloquist Garry Long
   - start_time: 2016-08-21 14:00
     name: Silent Auction Bidding Closes
   - start_time: 2016-08-21 15:00
