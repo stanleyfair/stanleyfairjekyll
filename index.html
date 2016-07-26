@@ -26,6 +26,7 @@ nav-weight: 1
             <td>
                 <strong>{{ event.name }}</strong>
                 <p class="description">{{ event.description }}</p>
+                {% if event.poster %}<a href="{{ event.poster }}" class="details" target="_blank">See more details <i class="fa fa-chevron-right"></i></a>{% endif %}
             </td>
         </tr>
         {% endfor %}
@@ -40,7 +41,7 @@ nav-weight: 1
         </li>
     {% endfor %}
     </ul>
-    <a href="{{ site.baseurl }}/static_files/2016_schedule.pdf">View more events on the full schedule</a>
+    <a href="{{ site.baseurl }}/static_files/2016_schedule.pdf" class="schedule" target="_blank">View more events on the full schedule</a>
 </section>
 
 <section class="dates">

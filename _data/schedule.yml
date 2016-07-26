@@ -12,12 +12,14 @@ days:
   - start_time: 2016-08-18 18:00
     name: Opening Dinner in the Dance Hall
     description: "Doors Open at 6:00pm. Turkey Dinner with all the Trimmings and Blueberry Dessert. Dinner served at 6:30pm - Price $14.00 Under 6 FREE. Celebrity Cake Auction immediately following the dinner. Silent auction items revealed."
+    poster: /static_files/posters/2016/cake_auction.pdf
 
 - date: 2016-08-19
   events:
   - start_time: 2016-08-19 8:00
     end_time: 2016-08-19 11:00am
     name: Breakfast at the Canteen
+    poster: /static_files/posters/2016/canteen.pdf
   - start_time: 2016-08-19 9:00
     name: Gates Open
     description: "Gates open on the 166th Stanley Fair! Admission $7.00, 12 and under free"
@@ -25,18 +27,23 @@ days:
     end_time: 2016-08-19 10:30
     name: Teddy Bear Picnic
     description: Bring your favourite Teddy Bear!
+    poster: /static_files/posters/2016/teddy_bear_picnic.pdf
   - start_time: 2016-08-19 11:00
     end_time: 2016-08-19 20:00
     name: NEW Horse Demonstrations beside the Barn
+    poster: /static_files/posters/2016/horse.pdf
   - start_time: 2016-08-19 12:00
     name: Lunch Special at the Canteen
     description: Salad plate $7.50
+    poster: /static_files/posters/2016/canteen.pdf
   - start_time: 2016-08-19 13:30
     name: Tea Party
     description: "music by Sam & Charlene Johnston and Back Two Basics, new event Family Feud"
+    poster: /static_files/posters/2016/tea_party.pdf
   - start_time: 2016-08-19 15:00
     name: Super Bingo
     description: "Under the blue tarp, $100.00 Jackpot!"
+    poster: /static_files/posters/2016/bingo.pdf
   - start_time: 2016-08-19 18:00
     end_time: 2016-08-19 21:00
     name: Ball Hockey in the Agrena
@@ -49,6 +56,7 @@ days:
   - start_time: 2016-08-20 8:00
     end_time: 2016-08-20 11:00
     name: Breakfast at the Canteen
+    poster: /static_files/posters/2016/canteen.pdf
   - start_time: 2016-08-20 9:00
     name: Gates Open
     description: "Admission $7.00, 12 and under free"
@@ -58,6 +66,7 @@ days:
   - start_time: 2016-08-20 10:00
     end_time: 2016-08-20 10:30
     name: Teddy Bear Picnic
+    poster: /static_files/posters/2016/teddy_bear_picnic.pdf
   - start_time: 2016-08-20 10:30
     name: Sheep Shearing at the Barn
   - start_time: 2016-08-20 11:00
@@ -71,11 +80,13 @@ days:
   - start_time: 2016-08-19 12:00
     name: Lunch Special at the Canteen
     description: Turkey dinner $10.00
+    poster: /static_files/posters/2016/canteen.pdf
   - start_time: 2016-08-20 13:00
     name: Horse Pull
   - start_time: 2016-08-20 13:00
     end_time: 2016-08-20 16:00
     name: Pony Rides and Wagon Rides
+    poster: /static_files/posters/2016/horse.pdf
   - start_time: 2016-08-20 14:00
     end_time: 2016-08-20 19:00
     name: Ploughman’s Pub
@@ -86,6 +97,7 @@ days:
   - start_time: 2016-08-20 14:00
     name: Bingo under the tent
     description: All proceeds Stanley Consolidated School Breakfast Program
+    poster: /static_files/posters/2016/bingo.pdf
   - start_time: 2016-08-20 15:00
     name: Mr. Zapz Magic Show
   - start_time: 2016-08-20 21:00
@@ -99,12 +111,14 @@ days:
     end_time: 2016-08-21 11:00
     name: Breakfast at the Canteen
     description: Closing at 12:00 noon
+    poster: /static_files/posters/2016/canteen.pdf
   - start_time: 2016-08-21 11:00
     name: Gates Open
     description: "Admission $7.00, 12 and under free"
   - start_time: 2016-08-19 11:00
     end_time: 2016-08-19 16:00
     name: NEW Horse Demonstrations beside the Barn
+    poster: /static_files/posters/2016/horse.pdf
   - start_time: 2016-08-21 11:00
     name: Cow Patty & Donkey Dung Bingo start
   - start_time: 2016-08-21 12:00
