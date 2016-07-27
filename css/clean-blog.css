@@ -492,6 +492,7 @@ body {
   background-color: #f9f9f9;
   font-size: 14px;
   padding: 10px 30px;
+  list-style: none;
 }
 .committee .department-heads table.mobile {
   text-align: center;
@@ -511,6 +512,38 @@ section {
 section p:first-of-type {
   margin-top: 0;
 }
+.details {
+  display: block;
+  margin-top: 10px;
+  color: #3b726c;
+  font-weight: 700;
+}
+.details i {
+  font-size: 12px;
+}
+div.posters {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  font-size: 14px;
+}
+div.posters ul {
+  padding: 20px;
+}
+div.posters ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+div.posters ul li a {
+  color: #3b726c;
+  font-weight: bold;
+}
+a.schedule {
+  color: #3b726c;
+  text-decoration: underline;
+  margin-top: 10px;
+  display: block;
+}
+
 @media (max-width: 650px) {
   .committee .department-heads table.full {
     font-size: 16px;
