@@ -42,8 +42,7 @@ days:
     poster: /static_files/posters/2016/tea_party.pdf
   - start_time: 2016-08-19 15:00
     name: Super Bingo
-    description: "Under the blue tarp, $100.00 Jackpot!"
-    poster: /static_files/posters/2016/bingo.pdf
+    description: "CANCELLED: Due to circumstances beyond our control the Super Bingo and all Bingo is cancelled at the 2016 Stanley Fair. Regrettably there will be no Bingo at the 2016 Stanley Fair."
   - start_time: 2016-08-19 18:00
     end_time: 2016-08-19 21:00
     name: Ball Hockey in the Agrena
@@ -96,8 +95,7 @@ days:
     name: Kiddies’ Fair Games in the Agrena
   - start_time: 2016-08-20 14:00
     name: Bingo under the tent
-    description: All proceeds Stanley Consolidated School Breakfast Program
-    poster: /static_files/posters/2016/bingo.pdf
+    description: "CANCELLED: Due to circumstances beyond our control the Super Bingo and all Bingo is cancelled at the 2016 Stanley Fair. Regrettably there will be no Bingo at the 2016 Stanley Fair."
   - start_time: 2016-08-20 15:00
     name: Mr. Zapz Magic Show
   - start_time: 2016-08-20 21:00
@@ -151,7 +149,6 @@ ongoing:
   - Canteen
   - Ploughman's Market Vendors
   - Pony Rides
-  - Bingo
   - Beekeepers Display
   - Ice Cream
   - Extensive Animal Display
