@@ -16,12 +16,15 @@
                 <li>
                     <a href="{{ site.baseurl }}/{% if site.permalink == 'none' %}index.html{% endif %}">Home</a>
                 </li>
-                {% assign pages = site.pages | sort:"nav-weight"  %}
-                {% for page in pages %}{% if page.title %}
                 <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    <a href="{{ site.baseurl }}/news-events">News &amp; Events</a>
                 </li>
-                {% endif %}{% endfor %}
+                <li>
+                    <a href="{{ site.baseurl }}/history">History</a>
+                </li>
+                <li>
+                    <a href="{{ site.baseurl }}/committee">Committee</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
