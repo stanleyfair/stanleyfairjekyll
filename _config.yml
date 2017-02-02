@@ -15,7 +15,11 @@ highlighter: pygments
 permalink: pretty
 paginate: 5
 paginate_path: news-events/page:num
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","npm-debug.log"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","npm-debug.log", "Gemfile", "Gemfile.lock"]
+
+# Gems
+gems: [jekyll-paginate]
+
 
 # Dropbox
 # baseurl: "https://dl.dropboxusercontent.com/u/112632688"
