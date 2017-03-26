@@ -484,6 +484,11 @@ body {
 .index .schedule .table-bordered {
   border: 1px solid #ddd;
 }
+
+.table>tbody>tr>td {
+  border-bottom: solid 1px #ddd;
+}
+
 .index .schedule ul.ongoing {
   columns: 2;
   -webkit-columns: 2;
@@ -544,6 +549,28 @@ a.schedule {
   display: block;
 }
 
+.rental a.thumbnail {
+  display: inline-block;
+  width: 230px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.rental table.full {
+  display: table;
+}
+
+.rental table.mobile {
+  text-align: center;
+  font-size: 16px;
+  display: none;
+}
+
+.rental .table-responsive {
+  border: none;
+}
+
 @media (max-width: 650px) {
   .committee .department-heads table.full {
     font-size: 16px;
@@ -561,18 +588,29 @@ a.schedule {
   .committee .department-heads table.mobile {
     display: table;
   }
+  .rental table.full {
+    display: none;
+  }
+  .rental table.mobile {
+    display: table;
+  }
+
+  .rental a.thumbnail {
+    display: block;
+    margin: 20px auto;
+  }
 }
 @media (max-width: 550px) {
-  .fair-info .map {
+  .location .map {
     float: none;
   }
-  .fair-info address {
+  .location address {
     margin: 10px 0 0 0;
   }
-  .fair-info .schedule table tbody td.event-time {
+  .schedule table tbody td.event-time {
     width: 80px;
   }
-  .fair-info .schedule table tbody td.event-time span {
+  .schedule table tbody td.event-time span {
     width: 80px;
   }
 }
