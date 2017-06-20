@@ -3,10 +3,10 @@
   <channel>
     <title>The Stanley Fair</title>
     <description>The longest continuously running agricultural fair in New Brunswick</description>
-    <link>http://stanleyfair.com/</link>
-    <atom:link href="http://stanleyfair.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Jun 2017 18:42:43 -0300</pubDate>
-    <lastBuildDate>Tue, 20 Jun 2017 18:42:43 -0300</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 20 Jun 2017 19:41:27 -0300</pubDate>
+    <lastBuildDate>Tue, 20 Jun 2017 19:41:27 -0300</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>&lt;p&gt;We’ve been working hard to make sure the 167th Stanley Fair is the best yet! &lt;a href=&quot;/static_files/news/sneak_peek_2017.pdf&quot;&gt;See our poster&lt;/a&gt; to see what’s new, our preliminary schedule, and our special exhibits in celebration of Canada 150!&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Jun 2017 05:01:00 -0300</pubDate>
-        <link>http://stanleyfair.com/2017/06/20/sneak-peek-2017/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2017/06/20/sneak-peek-2017/</guid>
+        <link>http://localhost:4000/2017/06/20/sneak-peek-2017/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/20/sneak-peek-2017/</guid>
         
         
       </item>
@@ -25,8 +25,8 @@
         <description>&lt;p&gt;We’re looking for sponsors for the 167th Stanley Fair! Can we count on your support? &lt;a href=&quot;/static_files/news/2017_sponsor.pdf&quot;&gt;See our 2017 sponsorship letter for more information&lt;/a&gt;!&lt;/p&gt;
 </description>
         <pubDate>Tue, 20 Jun 2017 05:00:00 -0300</pubDate>
-        <link>http://stanleyfair.com/2017/06/20/sponsors-2017/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2017/06/20/sponsors-2017/</guid>
+        <link>http://localhost:4000/2017/06/20/sponsors-2017/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/06/20/sponsors-2017/</guid>
         
         
       </item>
@@ -44,8 +44,8 @@
 &lt;!--end-excerpt--&gt;
 </description>
         <pubDate>Sat, 29 Apr 2017 05:00:00 -0300</pubDate>
-        <link>http://stanleyfair.com/2017/04/29/100-women/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2017/04/29/100-women/</guid>
+        <link>http://localhost:4000/2017/04/29/100-women/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/04/29/100-women/</guid>
         
         
       </item>
@@ -57,8 +57,8 @@
 &lt;!--end-excerpt--&gt;
 </description>
         <pubDate>Wed, 01 Feb 2017 08:00:00 -0400</pubDate>
-        <link>http://stanleyfair.com/2017/02/01/annual-meeting/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2017/02/01/annual-meeting/</guid>
+        <link>http://localhost:4000/2017/02/01/annual-meeting/</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/01/annual-meeting/</guid>
         
         
       </item>
@@ -70,8 +70,8 @@
 &lt;!--end-excerpt--&gt;
 </description>
         <pubDate>Thu, 29 Sep 2016 09:00:00 -0300</pubDate>
-        <link>http://stanleyfair.com/2016/09/29/thank-you/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2016/09/29/thank-you/</guid>
+        <link>http://localhost:4000/2016/09/29/thank-you/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/29/thank-you/</guid>
         
         
       </item>
@@ -87,8 +87,8 @@
 &lt;!--end-excerpt--&gt;
 </description>
         <pubDate>Tue, 16 Aug 2016 09:00:00 -0300</pubDate>
-        <link>http://stanleyfair.com/2016/08/16/bingo-cancelled/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2016/08/16/bingo-cancelled/</guid>
+        <link>http://localhost:4000/2016/08/16/bingo-cancelled/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/08/16/bingo-cancelled/</guid>
         
         
       </item>
@@ -108,8 +108,8 @@
 &lt;!--end-excerpt--&gt;
 </description>
         <pubDate>Mon, 16 May 2016 09:00:00 -0300</pubDate>
-        <link>http://stanleyfair.com/2016/05/16/ploughmans-pub/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2016/05/16/ploughmans-pub/</guid>
+        <link>http://localhost:4000/2016/05/16/ploughmans-pub/</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/16/ploughmans-pub/</guid>
         
         
       </item>
@@ -136,8 +136,8 @@
 &lt;p&gt;Check at the barn for scheduled times of demonstrations &amp;amp; events&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Aug 2015 09:00:00 -0300</pubDate>
-        <link>http://stanleyfair.com/2015/08/04/barn-activities/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2015/08/04/barn-activities/</guid>
+        <link>http://localhost:4000/2015/08/04/barn-activities/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/08/04/barn-activities/</guid>
         
         
       </item>
@@ -156,8 +156,8 @@ August 14, 15, and 16&lt;br /&gt;
 For more information, &lt;a href=&quot;mailto:uncletom@bellaliant.net&quot;&gt;contact Tom Cameron&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Aug 2015 09:00:00 -0300</pubDate>
-        <link>http://stanleyfair.com/2015/08/04/antique-farm-equipment/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2015/08/04/antique-farm-equipment/</guid>
+        <link>http://localhost:4000/2015/08/04/antique-farm-equipment/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/08/04/antique-farm-equipment/</guid>
         
         
       </item>
@@ -180,8 +180,8 @@ This longevity would not be possible without the support of devoted Agricultural
 Edith Dextraze, Secretary&lt;/p&gt;
 </description>
         <pubDate>Sun, 28 Jun 2015 09:00:00 -0300</pubDate>
-        <link>http://stanleyfair.com/2015/06/28/fundraising-notice/</link>
-        <guid isPermaLink="true">http://stanleyfair.com/2015/06/28/fundraising-notice/</guid>
+        <link>http://localhost:4000/2015/06/28/fundraising-notice/</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/06/28/fundraising-notice/</guid>
         
         
       </item>
