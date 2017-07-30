@@ -1,150 +1,143 @@
 days:
-- date: 2016-08-17
+- date: 2017-08-16
   events:
-  - start_time: 2016-08-17 14:00
-    end_time: 2016-08-17 21:00
+  - start_time: 2017-08-16 14:00
+    end_time: 2017-08-16 21:00
     name: Exhibits Accepted on the Fair Grounds
 
-- date: 2016-08-18
+- date: 2017-08-17
   events:
-  - start_time: 2016-08-18 9:00
+  - start_time: 2017-08-17 9:00
     name: Judging of Exhibits
-  - start_time: 2016-08-18 18:00
+  - start_time: 2017-08-17 18:00
     name: Opening Dinner in the Dance Hall
-    description: "Doors Open at 6:00pm. Turkey Dinner with all the Trimmings and Blueberry Dessert. Dinner served at 6:30pm - Price $14.00 Under 6 FREE. Celebrity Cake Auction immediately following the dinner. Silent auction items revealed."
-    poster: /static_files/posters/2016/cake_auction.pdf
+    description: "Doors Open at 6:00pm. Turkey Dinner served at 6:30pm - Price $14.00 Under 6 FREE. Celebrity Cake Auction immediately following the dinner. Silent auction begins."
+    poster: /static_files/posters/2017/CakeAuction.pdf
 
-- date: 2016-08-19
+- date: 2017-08-18
   events:
-  - start_time: 2016-08-19 8:00
-    end_time: 2016-08-19 11:00am
+  - start_time: 2017-08-18 8:00
+    end_time: 2017-08-18 11:00
     name: Breakfast at the Canteen
-    poster: /static_files/posters/2016/canteen.pdf
-  - start_time: 2016-08-19 9:00
+  - start_time: 2017-08-18 11:00
     name: Gates Open
-    description: "Gates open on the 166th Stanley Fair! Admission $7.00, 12 and under free"
-  - start_time: 2016-08-19 10:00
-    end_time: 2016-08-19 10:30
+    description: "Gates open on the 167th Stanley Fair! Admission $7.00, 12 and under free"
+  - start_time: 2017-08-18 11:00
+    end_time: 2017-08-18 11:30
     name: Teddy Bear Picnic
     description: Bring your favourite Teddy Bear!
-    poster: /static_files/posters/2016/teddy_bear_picnic.pdf
-  - start_time: 2016-08-19 11:00
-    end_time: 2016-08-19 20:00
-    name: NEW Horse Demonstrations beside the Barn
-    poster: /static_files/posters/2016/horse.pdf
-  - start_time: 2016-08-19 12:00
-    name: Lunch Special at the Canteen
-    description: Salad plate $7.50
-    poster: /static_files/posters/2016/canteen.pdf
-  - start_time: 2016-08-19 13:30
+  - start_time: 2017-08-18 11:00
+    end_time: 2017-08-18 16:00
+    name: Horse Demonstrations and Pony Rides.
+    description: Check at barn for schedule.
+  - start_time: 2017-08-18 13:00
     name: Tea Party
-    description: "music by Sam & Charlene Johnston and Back Two Basics, new event Family Feud"
-    poster: /static_files/posters/2016/tea_party.pdf
-  - start_time: 2016-08-19 15:00
+    description: "Music & a historical sketch 'Letters Home from Stanley's WWI Soldiers'"
+    poster: /static_files/posters/2017/TeaPoster2017.pdf
+  - start_time: 2017-08-18 14:00
     name: Super Bingo
-    description: "Under the blue tarp, $100.00 Jackpot!"
-    poster: /static_files/posters/2016/bingo.pdf
-  - start_time: 2016-08-19 18:00
-    end_time: 2016-08-19 21:00
-    name: Ball Hockey in the Agrena
-  - start_time: 2016-08-19 19:00
-    name: Variety Show
-    description: Featuring "Valley Sound" In The Old Dance Hall
+    description: "$150.00 Jackpot! Proceeds to Upper Nashwaak Lions Club"
+    poster: /static_files/posters/2017/BINGO2017.pdf
+  - start_time: 2017-08-18 19:00
+    name: Variety of Talent
+    description: On stage in the Old Dance Hall
 
-- date: 2016-08-20
+- date: 2017-08-19
   events:
-  - start_time: 2016-08-20 8:00
-    end_time: 2016-08-20 11:00
+  - start_time: 2017-08-19 8:00
+    end_time: 2017-08-19 11:00
     name: Breakfast at the Canteen
-    poster: /static_files/posters/2016/canteen.pdf
-  - start_time: 2016-08-20 9:00
+  - start_time: 2017-08-19 9:00
     name: Gates Open
     description: "Admission $7.00, 12 and under free"
-  - start_time: 2016-08-20 10:00
-    end_time: 2016-08-20 12:00
+  - start_time: 2017-08-19 10:00
+    end_time: 2017-08-19 12:00
     name: Registration for Horse Pull
-  - start_time: 2016-08-20 10:00
-    end_time: 2016-08-20 10:30
-    name: Teddy Bear Picnic
-    poster: /static_files/posters/2016/teddy_bear_picnic.pdf
-  - start_time: 2016-08-20 10:30
+  - start_time: 2017-08-19 10:00
+    name: Fredericton Motorcycle Club
+    description: Bikes on display, presentation of cheque to SCS Breakfast Program
+  - start_time: 2017-08-19 10:00
+    name: Fredericton Area British Automobile Club
+    description: Display of classic cars
+  - start_time: 2017-08-19 10:30
     name: Sheep Shearing at the Barn
-  - start_time: 2016-08-20 11:00
-    end_time: 2016-08-20 17:00
-    name: Mr. Zapz
-    description: Mr. Zapz of Zap Magic doing his world renowned balloon twisting!
-  - start_time: 2016-08-20 11:00
-    name: Mr. Zapz on the Kids' Stage
-  - start_time: 2016-08-20 12:00
-    name: Matt The Music Man on the Kids’ Stage
-  - start_time: 2016-08-20 12:00
-    name: Lunch Special at the Canteen
-    description: Turkey dinner $10.00
-    poster: /static_files/posters/2016/canteen.pdf
-  - start_time: 2016-08-20 13:00
+  - start_time: 2017-08-19 11:00
+    end_time: 2017-08-19 16:00
+    name: "Pony Ride & Horse Demonstrations"
+  - start_time: 2017-08-19 11:00
+    end_time: 2017-08-19 11:30
+    name: Teddy Bear Picnic
+    description: Bring your favourite Teddy Bear!
+  - start_time: 2017-08-19 12:00
+    name: Calithumpians Theatre Troupe
+    description: On stage in the Dance Hall
+  - start_time: 2017-08-19 13:00
+    name: Matt the Music Man
+    description: On stage in the Dance Hall
+  - start_time: 2017-08-19 13:00
     name: Horse Pull
-  - start_time: 2016-08-20 13:00
-    end_time: 2016-08-20 16:00
-    name: Pony Rides and Wagon Rides
-    poster: /static_files/posters/2016/horse.pdf
-  - start_time: 2016-08-20 14:00
-    end_time: 2016-08-20 19:00
+  - start_time: 2017-08-19 14:00
     name: Ploughman’s Pub
     description: "Enjoy a variety of music. Open to all ages."
-  - start_time: 2016-08-20 14:00
-    end_time: 2016-08-20 15:30
+    poster: /static_files/posters/2017/PloughmanPubPoster2017.pdf
+  - start_time: 2017-08-19 14:00
+    end_time: 2017-08-19 15:30
     name: Kiddies’ Fair Games in the Agrena
-  - start_time: 2016-08-20 14:00
-    name: Bingo under the tent
-    description: All proceeds Stanley Consolidated School Breakfast Program
-    poster: /static_files/posters/2016/bingo.pdf
-  - start_time: 2016-08-20 15:00
-    name: Mr. Zapz Magic Show
-  - start_time: 2016-08-20 21:00
-    end_time: 2016-08-20 1:00
+  - start_time: 2017-08-19 14:00
+    name: Bingo
+    description: Proceeds to Upper Nashwaak Lions Club
+    poster: /static_files/posters/2017/BINGO2017.pdf
+  - start_time: 2017-08-19 21:00
+    end_time: 2017-08-19 1:00
     name: Stanley Fair Dance
-    description: 'Featuring “The Thunderbirds” <strong>Must be 19, must show ID!</strong>'
+    description: 'Featuring The Burnt Hill Band <strong>Must be 19, must show ID!</strong>'
 
-- date: 2016-08-21
+- date: 2017-08-20
   events:
-  - start_time: 2016-08-21 9:00
-    end_time: 2016-08-21 11:00
+  - start_time: 2017-08-20 9:00
+    end_time: 2017-08-20 11:00
     name: Breakfast at the Canteen
-    description: Closing at 12:00 noon
-    poster: /static_files/posters/2016/canteen.pdf
-  - start_time: 2016-08-21 11:00
+  - start_time: 2017-08-20 11:00
     name: Gates Open
     description: "Admission $7.00, 12 and under free"
-  - start_time: 2016-08-19 11:00
-    end_time: 2016-08-19 16:00
-    name: NEW Horse Demonstrations beside the Barn
-    poster: /static_files/posters/2016/horse.pdf
-  - start_time: 2016-08-21 11:00
-    name: Cow Patty & Donkey Dung Bingo start
-  - start_time: 2016-08-21 12:00
-    name: Matt The Music Man on the Kids Stage
-  - start_time: 2016-08-21 12:00
+  - start_time: 2017-08-20 11:00
+    end_time: 2017-08-20 17:00
+    name: Mr. Zapz
+    description: "Doing his world renowned balloon twisting & magic!"
+  - start_time: 2017-08-20 11:00
+    name: Tug of War Competition
+  - start_time: 2017-08-20 11:00
+    end_time: 2017-08-20 16:00
+    name: "Pony Ride & Horse Demonstrations"
+  - start_time: 2017-08-20 11:00
+    end_time: 2017-08-20 11:30
+    name: Washer Toss Tournament Registration
+  - start_time: 2017-08-20 12:00
+    name: Washer Toss Tournament Start
+  - start_time: 2017-08-20 12:00
+    name: Matt The Music Man
+    description: On stage in the Old Dance Hall
+  - start_time: 2017-08-20 12:00
     name: Scavenger Challenge Registration
-  - start_time: 2016-08-21 13:00
-    end_time: 2016-08-21 14:00
+  - start_time: 2017-08-20 13:00
+    end_time: 2017-08-20 14:00
     name: Scavenger Challenge
     description: "Prizes $100, $60, $40"
-  - start_time: 2016-08-21 14:00
-    end_time: 2016-08-21 15:00
+  - start_time: 2017-08-20 13:00
+    name: Cow Patty Bingo Start
+  - start_time: 2017-08-20 14:00
     name: Frisbee Dogs Demonstration
-    description: Back by popular demand!
-  - start_time: 2016-08-21 14:00
-    name: NEW Ventriloquist Garry Long
-  - start_time: 2016-08-21 14:00
+    description: Amazing dog demonstration!
+  - start_time: 2017-08-20 14:00
     name: Silent Auction Bidding Closes
-  - start_time: 2016-08-21 15:00
-    end_time: 2016-08-21 17:00
-    name: Gospel Show in the Dance Hall
+  - start_time: 2017-08-20 15:00
+    end_time: 2017-08-20 17:00
+    name: Music on stage in the Old Dance Hall
 
-- date: 2016-08-22
+- date: 2017-08-21
   events:
-  - start_time: 2016-08-22 14:00
-    end_time: 2016-08-22 20:00
+  - start_time: 2017-08-21 14:00
+    end_time: 2017-08-21 20:00
     name: Exhibits to be picked up
 
 ongoing:
@@ -157,12 +150,16 @@ ongoing:
   - Extensive Animal Display
   - Agricultural Awareness Display
   - Music
-  - Historical Display
+  - Food Trucks
+  - Antique Tractors
   - Silent Auction
   - "Quilt & Handicraft Exhibits"
   - Henna Tattoos
   - Light Horse Demonstrations
   - Chinese Auction
-  - Food Vendors
-  - Inflatables
-  - Wagon Rides
+  - Tack Shop Display and Sale
+  - Tasty Carnival Food
+  - Bouncy Castles
+  - Walking Water Balls
+  - Mechanical Bull
+  - Celebrating Canada 150 – Unique Historical Display Including WWI
