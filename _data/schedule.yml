@@ -71,6 +71,7 @@ days:
   - start_time: 2017-08-19 12:00
     name: Calithumpians Theatre Troupe
     description: On stage in the Dance Hall
+    poster: /static_files/posters/2017/Calithumpians.pdf
   - start_time: 2017-08-19 13:00
     name: Matt the Music Man
     description: On stage in the Dance Hall
@@ -112,8 +113,10 @@ days:
   - start_time: 2017-08-20 11:00
     end_time: 2017-08-20 11:30
     name: Washer Toss Tournament Registration
+    poster: /static_files/posters/2017/WasherToss.pdf
   - start_time: 2017-08-20 12:00
     name: Washer Toss Tournament Start
+    poster: /static_files/posters/2017/WasherToss.pdf
   - start_time: 2017-08-20 12:00
     name: Matt The Music Man
     description: On stage in the Old Dance Hall
