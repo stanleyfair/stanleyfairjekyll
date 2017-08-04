@@ -40,7 +40,8 @@ days:
     poster: /static_files/posters/2017/BINGO2017.pdf
   - start_time: 2017-08-18 19:00
     name: Variety of Talent
-    description: On stage in the Old Dance Hall
+    description: "On stage in the Old Dance Hall. Valley Sound featuring Mary Hay, Rick Morehouse, Leanne Moir &amp; Judy
+McAloon! Also appearing: Morgan Northrup, Sophie Soderman, Isabel Soderman, Millen Anderson, Andrew &amp; Brady O’Hara, Philip McGeehan"
 
 - date: 2017-08-19
   events:
@@ -128,6 +129,7 @@ days:
     description: "Prizes $100, $60, $40"
   - start_time: 2017-08-20 13:00
     name: Cow Patty Bingo Start
+    poster: /static_files/posters/2017/CowPatty.pdf
   - start_time: 2017-08-20 14:00
     name: Frisbee Dogs Demonstration
     description: Amazing dog demonstration!
@@ -136,6 +138,7 @@ days:
   - start_time: 2017-08-20 15:00
     end_time: 2017-08-20 17:00
     name: Music on stage in the Old Dance Hall
+    description: "A variety of musical entertainment including: Matt The Music Man www.mattmusic.ca, Johnathan &amp; Wendy Hunter &amp; Friends, Rev Bonnie &amp; Rev Bob LeBlanc, Monte &amp; Annette Price &amp; Imelda Wilmot, Leanne Moir &amp; Judy McAloon &amp; Mary Hay"
 
 - date: 2017-08-21
   events:
