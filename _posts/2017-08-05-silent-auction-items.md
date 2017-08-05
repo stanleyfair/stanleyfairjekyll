@@ -14,6 +14,7 @@ date: 2017-08-05 12:00:00
 - Jacket - *Value $*
 
 **Riverview Ford Lincoln**
+<!--end-excerpt-->
 - Vehicle Service Gift Certificate - *Value $80*
 - Measuring Tape - *Value $15*
 - Utility Knife - *Value $15*
