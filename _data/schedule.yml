@@ -26,6 +26,7 @@ days:
     end_time: 2017-08-18 11:30
     name: Teddy Bear Picnic
     description: Bring your favourite Teddy Bear!
+    poster: /static_files/posters/2017/TeddyBear2017.pdf
   - start_time: 2017-08-18 11:00
     end_time: 2017-08-18 16:00
     name: Horse Demonstrations and Pony Rides
@@ -69,6 +70,7 @@ McAloon! Also appearing: Morgan Northrup, Sophie Soderman, Isabel Soderman, Mill
     end_time: 2017-08-19 11:30
     name: Teddy Bear Picnic
     description: Bring your favourite Teddy Bear!
+    poster: /static_files/posters/2017/TeddyBear2017.pdf
   - start_time: 2017-08-19 12:00
     name: Calithumpians Theatre Troupe
     description: On stage in the Dance Hall
