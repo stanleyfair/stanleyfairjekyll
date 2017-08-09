@@ -31,6 +31,7 @@ days:
     end_time: 2017-08-18 16:00
     name: Horse Demonstrations and Pony Rides
     description: Check at barn for schedule.
+    poster: /static_files/posters/2017/horseEvents.pdf
   - start_time: 2017-08-18 13:00
     name: Tea Party
     description: "Music & a historical sketch 'Letters Home from Stanley's WWI Soldiers'"
@@ -66,6 +67,7 @@ McAloon! Also appearing: Morgan Northrup, Sophie Soderman, Isabel Soderman, Mill
   - start_time: 2017-08-19 11:00
     end_time: 2017-08-19 16:00
     name: "Pony Ride & Horse Demonstrations"
+    poster: /static_files/posters/2017/horseEvents.pdf
   - start_time: 2017-08-19 11:00
     end_time: 2017-08-19 11:30
     name: Teddy Bear Picnic
@@ -110,9 +112,11 @@ McAloon! Also appearing: Morgan Northrup, Sophie Soderman, Isabel Soderman, Mill
     description: "Doing his world renowned balloon twisting & magic!"
   - start_time: 2017-08-20 11:00
     name: Tug of War Competition
+    poster: /static_files/posters/2017/tugOfWar.pdf
   - start_time: 2017-08-20 11:00
     end_time: 2017-08-20 16:00
     name: "Pony Ride & Horse Demonstrations"
+    poster: /static_files/posters/2017/horseEvents.pdf
   - start_time: 2017-08-20 11:00
     end_time: 2017-08-20 11:30
     name: Washer Toss Tournament Registration

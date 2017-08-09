@@ -5,7 +5,7 @@ date: 2017-08-05 12:00:00
 ---
 
 **River Side Crafts**
-- Painted Wooden Quilt Block - *Value $40*
+- Painted Wooden Quilt Block for barn, garage, or house - *Value $40*
 
 **Rexel Electrical**
 - Flashlight - *Value $20*
@@ -61,3 +61,4 @@ Items from private supporters of the Silent Auction
 - Collection of Small Farmers Journals (In memory of Megan Scammell) - *Value $80*
 - Outdoor Wall Mount Light - *Value $50*
 - Table Umbrella - *Value $100*
+- Pair of purple bootie slippers - *Value $30*
