@@ -1,6 +1,6 @@
 /*!
  * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2015 Start Bootstrap
+ * Copyright 2018 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
@@ -484,11 +484,6 @@ body {
 .index .schedule .table-bordered {
   border: 1px solid #ddd;
 }
-
-.table>tbody>tr>td {
-  border-bottom: solid 1px #ddd;
-}
-
 .index .schedule ul.ongoing {
   columns: 2;
   -webkit-columns: 2;
@@ -497,7 +492,6 @@ body {
   background-color: #f9f9f9;
   font-size: 14px;
   padding: 10px 30px;
-  list-style: none;
 }
 .committee .department-heads table.mobile {
   text-align: center;
@@ -511,66 +505,15 @@ body {
 .committee .department-heads .table-responsive {
   border: none;
 }
+img.logo {
+  padding-top: 20px;
+}
 section {
   margin-bottom: 40px;
 }
 section p:first-of-type {
   margin-top: 0;
 }
-.details {
-  display: block;
-  margin-top: 10px;
-  color: #3b726c;
-  font-weight: 700;
-}
-.details i {
-  font-size: 12px;
-}
-div.posters {
-  border: 1px solid #ddd;
-  background-color: #f9f9f9;
-  font-size: 14px;
-}
-div.posters ul {
-  padding: 20px;
-}
-div.posters ul li {
-  list-style: none;
-  margin: 10px 0;
-}
-div.posters ul li a {
-  color: #3b726c;
-  font-weight: bold;
-}
-a.schedule {
-  color: #3b726c;
-  text-decoration: underline;
-  margin-top: 10px;
-  display: block;
-}
-
-.rental a.thumbnail {
-  display: inline-block;
-  width: 230px;
-  height: 180px;
-  background-size: cover;
-  background-position: center;
-}
-
-.rental table.full {
-  display: table;
-}
-
-.rental table.mobile {
-  text-align: center;
-  font-size: 16px;
-  display: none;
-}
-
-.rental .table-responsive {
-  border: none;
-}
-
 @media (max-width: 650px) {
   .committee .department-heads table.full {
     font-size: 16px;
@@ -588,29 +531,18 @@ a.schedule {
   .committee .department-heads table.mobile {
     display: table;
   }
-  .rental table.full {
-    display: none;
-  }
-  .rental table.mobile {
-    display: table;
-  }
-
-  .rental a.thumbnail {
-    display: block;
-    margin: 20px auto;
-  }
 }
 @media (max-width: 550px) {
-  .location .map {
+  .fair-info .map {
     float: none;
   }
-  .location address {
+  .fair-info address {
     margin: 10px 0 0 0;
   }
-  .schedule table tbody td.event-time {
+  .fair-info .schedule table tbody td.event-time {
     width: 80px;
   }
-  .schedule table tbody td.event-time span {
+  .fair-info .schedule table tbody td.event-time span {
     width: 80px;
   }
 }
