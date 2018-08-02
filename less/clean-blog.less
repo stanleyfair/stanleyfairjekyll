@@ -11,7 +11,7 @@ body {
 
 // -- Typography
 a {
-	text-decoration: underline;	
+	text-decoration: underline;
 }
 
 p {
@@ -83,6 +83,7 @@ hr.small {
 				font-size: 12px;
 				font-weight: 800;
 				letter-spacing: 1px;
+				text-decoration: none;
 			}
 		}
 	}
@@ -614,6 +615,28 @@ section {
 	}
 }
 
+.rental a.thumbnail {
+  display: inline-block;
+  width: 230px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+ .rental table.full {
+  display: table;
+}
+
+ .rental table.mobile {
+  text-align: center;
+  font-size: 16px;
+  display: none;
+}
+
+ .rental .table-responsive {
+  border: none;
+}
+
 @media (max-width: 650px) {
 	.committee {
 		.department-heads table.full {
@@ -625,6 +648,19 @@ section {
 			  display: inline-block;
 			}
 		}
+	}
+
+	.rental table.full {
+		display: none;
+	}
+
+	.rental table.mobile {
+		display: table;
+	}
+
+	 .rental a.thumbnail {
+		display: block;
+		margin: 20px auto;
 	}
 }
 

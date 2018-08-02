@@ -69,6 +69,7 @@ hr.small {
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
@@ -517,6 +518,24 @@ section {
 section p:first-of-type {
   margin-top: 0;
 }
+.rental a.thumbnail {
+  display: inline-block;
+  width: 230px;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+.rental table.full {
+  display: table;
+}
+.rental table.mobile {
+  text-align: center;
+  font-size: 16px;
+  display: none;
+}
+.rental .table-responsive {
+  border: none;
+}
 @media (max-width: 650px) {
   .committee .department-heads table.full {
     font-size: 16px;
@@ -525,6 +544,16 @@ section p:first-of-type {
     width: 160px;
     white-space: normal;
     display: inline-block;
+  }
+  .rental table.full {
+    display: none;
+  }
+  .rental table.mobile {
+    display: table;
+  }
+  .rental a.thumbnail {
+    display: block;
+    margin: 20px auto;
   }
 }
 @media (max-width: 475px) {
