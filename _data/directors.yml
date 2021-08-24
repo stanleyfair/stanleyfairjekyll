@@ -2,16 +2,15 @@ term_length: 3
 terms:
 - year: 1st
   directors:
+    - Irene Colford
+    - Ross Barnet
+- year: 2nd
+  directors:
+    - Billy Delong
+    - Dawn Piercy
+    - Joanne Forbes
+- year: 3rd
+  directors:
     - Tom Cameron
     - Edie Dextraze
     - Jordan Waye
-- year: 2nd
-  directors:
-  - Irene Colford
-  - Doris Sellick
-  - Ross Barnet
-- year: 3rd
-  directors:
-  - Bev Van Beek
-  - Tammy McDougall
-  - Billy DeLong
