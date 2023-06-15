@@ -17,62 +17,8 @@ nav-weight: 4
 </section>
 
 <section>
-    <h2>Rental Fees and Details</h2>
-    <table class="table full">
-      <tbody>
-        {% for fee in site.data.rental.fees %}
-        <tr>
-          <td>{{ fee.facility }}</td>
-          <td>{{ fee.fee }}</td>
-        </tr>
-        {% endfor %}
-      </body>
-    </table>
-    <table class="table table-striped mobile">
-      <tbody>
-        {% for fee in site.data.rental.fees %}
-        <tr>
-          <td class="contact-name">
-            <b>{{ fee.facility }}</b><br>
-            {{ fee.fee }}
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    <p>To use the space the day before, to decorate, set-up, etc. or the day after, to clean-up, etc. a fee of $50.00 a day will be charged. This fee is if only decorating, set-up, clean-up and food storage are being done. If there is to be food preparation or gatherings such are rehearsal dinner, gift opening, etc. the regular daily rental fee will be charged.</p>
-    <p>A non-refundable deposit ($100.00) is due to confirm reservation. Full payment is required before the event. Make cheques payable to the Stanley Agricultural Society.</p>
-    <p>Clean-up fee $100.00. If the facilities are left in same condition as before the event no clean-up fee will be charged.</p>
-    <p>For complete rental details, please see our <a href="{{ site.baseurl }}/static_files/rental/rental_application.pdf" target="_blank">rental application</a>.</p>
-</section>
-
-<section>
-    <h2>Contact</h2>
-    <p>For information about rentals contact:</p>
-    <table class="table full">
-      <tbody>
-        {% for contact in site.data.rental.contacts %}
-        <tr>
-          <td>{{ contact.name }}</td>
-          <td>{{ contact.email }}</td>
-          <td>{{ contact.phone }}</td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    <table class="table table-striped mobile">
-      <tbody>
-        {% for contact in site.data.rental.contacts %}
-        <tr>
-          <td class="contact-name">
-            <b>{{ contact.name }}</b><br>
-            Email: {{ contact.email }}<br>
-            Phone: {{ contact.phone }}
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+    <h2>Rental Information and Contract</h2>
+    <p>For information about rentals, please download our <a href="{{ site.baseurl }}/static_files/rental/rental_contract.pdf" target="blank">rental contract</a></p>
 </section>
 
 <section>
