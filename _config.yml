@@ -4,7 +4,7 @@ header-img: img/fairgrounds2014.jpg
 header-img-credit: Emily Dextraze
 email: leahbelyea@gmail.com
 description: "The longest continuously running agricultural fair in New Brunswick"
-baseurl: "/stanleyfairjekyll" # undo this after setting up custom domain?
+baseurl: ""
 url: "http://stanleyfair.com"
 facebook_username: Stanley-Fair-156411521175708
 excerpt_separator: <!--end-excerpt-->
