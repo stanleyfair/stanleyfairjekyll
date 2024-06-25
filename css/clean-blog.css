@@ -518,7 +518,7 @@ section {
 section p:first-of-type {
   margin-top: 0;
 }
-.rental a.thumbnail {
+.rental a.thumbnail, .photos a.thumbnail {
   display: inline-block;
   width: 230px;
   height: 180px;
@@ -551,7 +551,7 @@ section p:first-of-type {
   .rental table.mobile {
     display: table;
   }
-  .rental a.thumbnail {
+  .rental a.thumbnail, .photos a.thumbnail {
     display: block;
     margin: 20px auto;
   }

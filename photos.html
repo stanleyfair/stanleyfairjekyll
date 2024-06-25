@@ -1,0 +1,12 @@
+---
+layout: page
+title: "Photos"
+description: ""
+nav-weight: 3
+---
+
+<section>
+    {% for photo in site.data.gallery.photos %}
+    <a href="{{ site.baseurl }}/static_files/gallery/{{photo}}" style="background-image: url('{{ site.baseurl }}/static_files/gallery/{{photo}}')" class="thumbnail" data-lightbox="gallery"></a>
+    {% endfor %}
+</section>

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Looking for Volunteers
-date: 2023-07-29 08:00:00
+title: Looking for Volunteers 2024
+date: 2024-06-24 08:01:00
 ---
 
 We are looking for volunteers to cover a few shifts at a variety of events throughout the fair. Would you be interested in: scooping ice cream, selling tickets, washing dishes, supervising children’s activities, helping out in the barn, taking orders in the canteen, general cleanup, monitoring exhibits, set up of tables for dinners and pub, etc.
