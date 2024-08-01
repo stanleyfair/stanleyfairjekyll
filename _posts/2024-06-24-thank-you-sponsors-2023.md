@@ -54,5 +54,18 @@ We would like to thank all that made the 2023 Stanley Fair possible!
 - Hawkins Equipment
 - Riverside Chainsaw
 - Mark Logan and Service Master
+- Stanley Consolidated School
+- R.D. Ponds
+- Ovielda Maillet
+- Marilyn McKnight
+- Melissa Player
+- Stephanie Delong Deurloo
+- Deanna MacKinnon
+- Just Friends Foodbank
+- Nellie Wilson
+- St.Thomas Anglican Church
+- Jean-Yves Hamel
+- Agnes Edmundson
+- Top Shelf Bakery
 
 If we have forgotten anyone, our apologies!
